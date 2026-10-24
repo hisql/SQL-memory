@@ -18,11 +18,10 @@ SQL-memory/
     │   ├── memory.cpp          attach, io, pe parsing, module walking
     │   ├── region.h            Region - full snapshot of a remote range in local memory
     │   └── simd.h              sse2/avx2 pattern scanning over a snapshot
-    ├── syscalls/
-    │   ├── syscalls.h
-    │   ├── syscalls.cpp        ssn resolution from clean ntdll exports
-    │   └── syscall.asm         the actual syscall stubs (masm)
-    └── offsets.h               roblox offsets, carried for when this feeds the sdk
+    └── syscalls/
+        ├── syscalls.h
+        ├── syscalls.cpp        ssn resolution from clean ntdll exports
+        └── syscall.asm         the actual syscall stubs (masm)
 ```
 
 ## how it works
