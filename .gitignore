@@ -1,0 +1,14 @@
+# build output
+build/
+x64/
+Win32/
+*.pdb
+
+# visual studio junk
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# local leftovers
+.freebuff/
